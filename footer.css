@@ -1,0 +1,33 @@
+footer {
+  display: flex;
+  padding: 3em 35em;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__text-primary {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.social_media i {
+  font-size: 2em;
+  color: #333;
+}
+
+.social_media ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+media (max-width: 768px) {
+  footer {
+    text-align: center;
+    padding: 0;
+  }
+
+  .social_media ul {
+    justify-content: center;
+  }
+}

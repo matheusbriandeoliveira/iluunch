@@ -1,0 +1,30 @@
+.metrics {
+  display: flex;
+  padding: 3em 27em;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: var(--color-primary);
+  color: var(--text-primary);
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.metric {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.number {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .metrics {
+    flex-direction: column;
+    gap: 1.5em;
+    padding: 2em 5%;
+  }
+}
