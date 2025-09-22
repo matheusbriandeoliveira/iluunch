@@ -76,7 +76,7 @@ main {
     flex-direction: column-reverse;
     padding: 3em 1em;
     text-align: center;
-    gap: 1em;
+    gap: 3em;
   }
 
   .container__left {
