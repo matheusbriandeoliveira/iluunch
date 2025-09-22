@@ -79,6 +79,11 @@ main {
     gap: 3em;
   }
 
+  .titulo__primary {
+    margin-bottom: 1em;
+    line-height: 1em;
+  }
+
   .container__left {
     max-width: 100%;
   }
