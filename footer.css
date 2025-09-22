@@ -21,26 +21,8 @@ footer {
   gap: 0.8em;
 }
 
-media (max-width: 768px) {
+@media (max-width: 768px) {
   footer {
-    flex-direction: column;
-    text-align: center;
-    padding: 1em;
-    margin: 0;
-  }
-
-  .social_media ul {
-    justify-content: center;
-  }
-
-  .social_media i {
-    font-size: 0.5em;
-    color: #333;
-  }
-
-  .social_media ul {
-    list-style: none;
-    display: flex;
-    gap: 10px;
+    display: none;
   }
 }
