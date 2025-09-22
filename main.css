@@ -74,9 +74,9 @@ main {
 @media (max-width: 768px) {
   main {
     flex-direction: column-reverse;
-    padding: 4em 5%;
+    padding: 3em 1em;
     text-align: center;
-    gap: 2em;
+    gap: 1em;
   }
 
   .container__left {
